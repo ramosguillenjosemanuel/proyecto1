@@ -1,0 +1,3 @@
+db.vehiculos.insertOne({"marca":"ferrari","km/h" :300,"modelo": 488}) / Aqui creamos un archivo dentro de una base de datos especificando algunas caracteristicas de dicho archivo.
+db.vehiculos.find({"km/h":{$gte:19}}) / Cuando ya ha sido creado el archivo, se realiza una busqueda para comprabar si ha sido creado correctamente, se especifica una condición para buscar dicho archivo u otro mediante filtros como "$gte:19".
+{ "_id" : ObjectId("5f85f0381da5249880ae83eb"), "marca" : "ferrari", "km/h" : 300, "modelo" : 488 } / Aqui podemos ver el resultado de dicha busqueda , dando como resultado un archivo con esas caracteristicas 
